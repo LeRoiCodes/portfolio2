@@ -9,6 +9,24 @@
   align-items: center;
   cursor: pointer;
 }
+a:link {
+  color: inherit;
+}
+
+/* visited link */
+a:visited {
+  color: inherit;
+}
+
+/* mouse over link */
+a:hover {
+  color: inherit;
+}
+
+/* selected link */
+a:active {
+  color: inherit;
+}
 .logo{
   font-size: larger;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -121,7 +139,7 @@ line-height: 26px;
 .stack .stack-images{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 50px;
   margin-top: 100px;
@@ -131,4 +149,94 @@ line-height: 26px;
 }
 .stack .stack-images img:hover{
   transform: scale(1.3);
+}
+
+.projects {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+.projects .projects-container{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+ .card{
+  width: 30%;
+  /* height: 567px; */
+  height: 60vh;
+  border-radius: 20px;
+  margin: 30px 10px;
+  /* background: #fff; */
+  /* box-shadow: 2px 2px 100px 0px rgba(0,0,0,0.20); */
+  border: 2px solid #f3f2f2;
+  /* display: flex;
+  flex-direction: column; */
+  overflow: hidden;
+}
+.card .card-browser{
+  height: 20px;
+  background-color: #aaa8a8;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  /* margin-left: 2px; */
+}
+.card .card-browser .card-circle{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color:#fff;
+}
+.card .card-image {
+  width: 100%;
+  /* height: 260px; */
+  transition: all 10s ease;
+  /* overflow: hidden; */
+}
+.card:hover .card-image {
+  transform: translateY(-50%);
+}
+.info{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info .logo-image{
+  /* width: 97px; */
+  height: 59px;
+}
+.info .info-div{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 30px */
+}
+.info p{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+hr{
+  width: 80%;
+  border: 1px solid #aaa8a8;
+  margin: 40px auto;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .projects .card{
+    width: 40%;
+    height: 20vh;
+  }
 }

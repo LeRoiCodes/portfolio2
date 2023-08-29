@@ -5,17 +5,15 @@ import ProjectCard from "./ProjectCard"
 function Projects() {
   return (
     <section className="projects">
-        <h1>My Projects</h1>
+        <h1>Projects</h1>
         <p>Things I{"'"}ve built so far</p>
-        <div className="project">
-           { projects.map((project) => 
+        <div className="projects-container">
+           { projects.map((project, i) => 
            <ProjectCard
-           key={project.title}
-           title={project.title}
+           key={i}
            img={project.img}
-           preview={project.preview}
-           desc={project.desc}
-           code={project.code} />
+           link={project.link}
+           alt={project.alt} />
            )}
         </div>
     </section>
