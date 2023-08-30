@@ -14,6 +14,16 @@ function Info() {
         
     </div>
     <hr />
+    <footer>
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>techStack</a></li>
+        <li><a>Projects</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+      <p>Built by LeRoi Codes with love and lots of coffee</p>
+    </footer>
     </>
   )
 }

@@ -5,7 +5,7 @@ import me from '../assets/IMG_8823-1.jpeg'
 function Intro() {
   return (
     <section className="hero">
-        <div className="intro"><p>Hi 👋,</p> <p>My name is</p> <span>Brandon Armand Nyamkimbi</span> <p>I build things for web</p></div>
+        <div className="intro"><p>Hi 👋,</p> <p>My name is</p> <span>Brandon Armand N.</span> <p>I build things for the web</p></div>
         <div className="intro-image"><img src={me} /></div>
     </section>
   )
