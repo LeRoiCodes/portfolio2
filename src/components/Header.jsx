@@ -3,6 +3,7 @@ import github from "../assets/Vector.png"
 function Header() {
   return (
     <div className="header">
+    
         <div className="logo"><a href="/"> <span>Le</span>ROi <p>Codes</p> </a></div>
         <div className="nav">
             <ul>
@@ -13,6 +14,7 @@ function Header() {
                 <li><a>Contact</a></li>
                 <li><a><img src={github}/></a></li>
             </ul>
+            
         </div>
     </div>
   )

@@ -15,8 +15,10 @@ import vscode from '../assets/vscode-icons_file-type-vscode.png'
 function Stack() {
   return (
     <section className="stack">
-        <h1>My Tech Stack</h1>
+        <div className="brief">
+          <h1>My Tech Stack</h1>
         <p>Technologies I have been working with recently </p>
+        </div>
         <div className='stack-images'>
           <img src={html} alt={html} />
           <img src={css} alt={css} />
