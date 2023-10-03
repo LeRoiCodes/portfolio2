@@ -1,5 +1,4 @@
 import github from "../assets/Vector.png"
-
 function Header() {
   return (
     <div className="header">
@@ -14,7 +13,7 @@ function Header() {
                 <li><a>Contact</a></li>
                 <li><a><img src={github}/></a></li>
             </ul>
-            
+           
         </div>
     </div>
   )

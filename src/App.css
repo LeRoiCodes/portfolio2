@@ -337,7 +337,7 @@ footer ul{
   text-align: center;
   align-items: center;
   margin: 4rem auto;
-  border: 4px solid orange;
+  /* border: 4px solid orange; */
 
 }
 .hero-x .intro{
@@ -370,11 +370,12 @@ footer ul{
 
 .stack{
   width: 90%;
-  margin: 2rem  auto;
+  margin: 0  auto;
+  margin-top:15rem;
 }
 .brief{
-  margin: 2rem auto;
-  border: 1px solid red;
+  /* margin: 2rem auto; */
+  /* border: 1px solid red; */
 }
 h1{
   text-align: center;
