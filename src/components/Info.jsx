@@ -8,8 +8,8 @@ function Info() {
     <div className="logo-foot"><a href="#"> <span>Le</span>ROi <p>Codes</p> </a></div>
         <div className="info-div">
             <p id="phone-x">Phone: +237 672004155</p>
-            <p>Email: brandonarmand96@gmail.com</p>
-            <img src={github}/>
+            <p id="email">Email: brandonarmand96@gmail.com</p>
+            {/* <img src={github}/> */}
         </div>
         
     </div>
