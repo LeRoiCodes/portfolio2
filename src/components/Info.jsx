@@ -9,7 +9,7 @@ function Info() {
         <div className="info-div">
             <p id="phone-x">Phone: +237 672004155</p>
             <p id="email">Email: brandonarmand96@gmail.com</p>
-            {/* <img src={github}/> */}
+            <img src={github}/>
         </div>
         
     </div>
